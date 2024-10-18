@@ -189,7 +189,7 @@ public class Main {
                 result[massive_1_col - j - 1][i] = massive_1[i][j];
             }
         }
-        System.out.println("повернутый массив на 90 градусов по часовой стрелке"   );
+        System.out.println("повернутый массив на 90 градусов против часовой стрелке"   );
         System.out.println(Arrays.deepToString(result));
     }
 
