@@ -74,22 +74,14 @@ public class Main {
         int time_summ = 0;
         int max_summ = Integer.MIN_VALUE;
         for (int k =0; k<a_l; k++){
-
-
             for (int step =2; step<=a_l; step++){
-
                 time_summ = massive_1[k];
                 for  (int i = k+1; i < step; i++) {
-
                     time_summ = time_summ+ massive_1[i];
-
-
                 }
                 if (max_summ<time_summ){
                     max_summ=time_summ;
-
                 }
-
             }
         }
         System.out.println("Максимальная сумма подмасивов: " + max_summ );
