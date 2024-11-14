@@ -37,19 +37,24 @@ public class Board {
 
         // Белые фигуры
         fields[0][0] = new Rook("R", 'w');
-        fields[0][7] = new Rook("R", 'w');
         fields[0][1] = new Knight("H", 'w');
-        fields[0][6] = new Knight("H", 'w');
+        fields[0][2] = new Bishop("B", 'w');
         fields[0][3] = new Queen("Q", 'w');
         fields[0][4] = new King("K", 'w');
+        fields[0][5] = new Bishop("B", 'w');
+        fields[0][6] = new Knight("H", 'w');
+        fields[0][7] = new Rook("R", 'w');
 
         // Черные фигуры
         fields[7][0] = new Rook("R", 'b');
-        fields[7][7] = new Rook("R", 'b');
         fields[7][1] = new Knight("H", 'b');
-        fields[7][6] = new Knight("H", 'b');
+        fields[7][2] = new Bishop("B", 'b');
         fields[7][3] = new Queen("Q", 'b');
         fields[7][4] = new King("K", 'b');
+        fields[7][5] = new Bishop("B", 'b');
+        fields[7][6] = new Knight("H", 'b');
+        fields[7][7] = new Rook("R", 'b');
+          
     }
 
     // Получение состояния ячейки доски
